@@ -112,7 +112,7 @@ const SearchBooks = () => {
         <h2>
           {searchedBooks.length
             ? `Viewing ${searchedBooks.length} results:`
-            : "Search for a book"}
+            : "Look for a book"}
         </h2>
         <CardColumns>
           {searchedBooks.map((book) => {
